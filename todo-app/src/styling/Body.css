@@ -1,0 +1,62 @@
+/* Body.css */
+
+.body-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff; /* Blue color for the heading */
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-button,
+  .cancel-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .action-button {
+    background-color: #28a745; /* Green color for 'Add' or 'Update' button */
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545; /* Red color for 'Cancel' button */
+    color: #fff;
+  }
+  
+  /* Hover effects */
+  .action-button:hover,
+  .cancel-button:hover {
+    filter: brightness(1.2);
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
